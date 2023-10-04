@@ -67,6 +67,6 @@ describe('NavBar.vue', () => {
     expect(modeValue).toBe('loremipsum');
 
     const nav = queryByTestId('nav');
-    expect(nav).toBeFalsy();
+    expect(nav).toBeTruthy();
   });
 });
