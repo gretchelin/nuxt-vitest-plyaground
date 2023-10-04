@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    'pinia',
+    '@pinia/nuxt',
     'nuxt-vitest'
   ]
 })
