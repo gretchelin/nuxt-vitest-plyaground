@@ -3,7 +3,7 @@ import { defineStore } from 'pinia';
 export const useNavStore = defineStore('nav', () => {
   const mode = ref<string>('');
 
-  const setMode = async (value: string) => {
+  const setMode = (value: string) => {
     mode.value = value;
   };
 

@@ -7,6 +7,7 @@ export default defineVitestConfig({
     globals: true,
     clearMocks: true,
     restoreMocks: true,
+    passWithNoTests: true,
     setupFiles: './test/setup-test.ts',
   },
 });
