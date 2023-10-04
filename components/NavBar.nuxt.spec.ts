@@ -1,7 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { renderSuspended } from 'nuxt-vitest/utils';
 import { createTestingPinia } from '@pinia/testing';
-import { setActivePinia } from 'pinia';
 import TestedComponent from './NavBar.vue';
 import { useNavStore } from '~/stores/nav';
 
